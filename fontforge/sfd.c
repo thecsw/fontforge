@@ -1091,7 +1091,7 @@ static void SFDDumpImagePNG(FILE *sfd,ImageList *img) {
     size_t pnglen, i;
 
     if (!GImageWritePngBuf(img->image, &pngbuf, &pnglen, 1, false)) {
-        IError("Failed to serialise PNG image");
+            //IError("Failed to serialise PNG image");
         return;
     }
 
